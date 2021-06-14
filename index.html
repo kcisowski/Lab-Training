@@ -27,6 +27,7 @@
       window.zESettings = {
         webWidget: {
           offset: { horizontal: "100px", vertical: "150px" },
+          color: { theme: '#78a300' },
           contactOptions: {
             enabled: true,
             contactButton: { '*': 'Connect with us!' },
@@ -34,9 +35,14 @@
             chatLabelOffline: { '*': 'Chat is unavailable' },
             contactFormLabel: { '*': 'Open a ticket with us!'}
           },
+
+          helpCenter: {
+            suppress: true,
+            messageButton: { '*': 'HC Message Button!' }
+          },
     
           answerBot: {
-            suppress: false,
+            suppress: true,
             title: {
               "*": "Conversation with DunderBot",
             },
